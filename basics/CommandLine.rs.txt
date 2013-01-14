@@ -1,0 +1,11 @@
+import io::println;
+import io::*;
+import core::*;
+
+fn main() {
+
+   println(~" please enter some thing to echo back ...");
+   let readBytes = io::stdin().read_line();
+   println(~" you entered .... ");
+   println(#fmt("%s",readBytes));
+}
