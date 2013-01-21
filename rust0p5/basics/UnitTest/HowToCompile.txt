@@ -1,0 +1,2 @@
+$rustc factorial.rs --test -o ../../bin/mytest1
+$ ../../bin/mytest1
