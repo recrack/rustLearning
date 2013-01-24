@@ -1,3 +1,4 @@
+// rustc --out-dir=../bin HelloWorld.rs
 use io::println;
 
 fn main(){
